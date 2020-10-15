@@ -19,15 +19,15 @@ Create an app with type SDK , option will look like this:
 
 [![Zoom App SDK type](https://dl.dropboxusercontent.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png "Zoom App SDK type")](https://dl.dropboxusercontent.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png "Zoom App SDK type")
 
-a. Note the SDK key 
-b. Note the SDK secret 
+a. Note the SDK key
 
-------------
+b. Note the SDK secret 
 
 
 #### 2) Python
 The pyjwt python library is required. `pip install pyjwt` or `pip3 install pyjwt` depending on your version
 
+------------
 
 ## Usage
 ```
