@@ -11,4 +11,34 @@ It can generate [Zoom](https://zoom.us) JWT that can be used with any Zoom SDK v
 
 
 ## Requirements:
+
+#### 1) Zoom
+https://marketplace.zoom.us/develop/create
+Create an app with type SDK , option will look like this:
+[![Zoom App SDK type](https://www.dropbox.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png?dl=1 "Zoom App SDK type")](https://www.dropbox.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png?dl=1 "Zoom App SDK type")
+a. Note the SDK key 
+b. Note the SDK secret 
+
+------------
+
+
+#### 2) Python
 The pyjwt python library is required. `pip install pyjwt` or `pip3 install pyjwt` depending on your version
+
+
+## Usage
+```
+zoom_sdk = ZoomSDKJWT("SDK KEY","SDK Secret")
+zoom_sdk.generate_token()
+```
+or if you want to use it import in another module
+```
+from ZoomSDKJWT import ZoomSDKJWT
+zoom_sdk = ZoomSDKJWT("SDK KEY","SDK Secret")
+zoom_sdk.generate_token()
+```
+
+### Note
+You can run the code as it is by providing SDK Key and SDK Secret and it will provide a valid JWT, but if you want to change the validity/expiry of JWT, keep these points in mind:
+1. The **exp** value should **not exceed** 2 days, by default its set to 1 day 
+2. The **tokenExp**  value should be **more than** 30 mins and **less than** exp value, by default its set for 1 hour.
