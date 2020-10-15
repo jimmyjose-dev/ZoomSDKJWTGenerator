@@ -42,6 +42,6 @@ zoom_sdk.generate_token()
 ```
 
 ### Note
-You can run the code as it is by providing SDK Key and SDK Secret and it will provide a valid JWT, but if you want to change the validity/expiry of JWT, keep these points in mind:
+You can run the code as it is by providing SDK Key and SDK Secret and it will generate a valid JWT, but if you want to modify the validity/expiry of JWT, keep these points in mind:
 1. The **exp** value should **not exceed** 2 days, by default its set to 1 day 
 2. The **tokenExp**  value should be **more than** 30 mins and **less than** exp value, by default its set for 1 hour.
