@@ -15,7 +15,7 @@ It can generate [Zoom](https://zoom.us) JWT that can be used with any Zoom SDK v
 #### 1) Zoom
 https://marketplace.zoom.us/develop/create
 Create an app with type SDK , option will look like this:
-[![Zoom App SDK type](https://www.dropbox.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png?dl=1 "Zoom App SDK type")](https://www.dropbox.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png?dl=1 "Zoom App SDK type")
+[![Zoom App SDK type](https://dl.dropboxusercontent.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png "Zoom App SDK type")](https://dl.dropboxusercontent.com/s/e49i9ni9zje4o6d/zoomsdkappcreate.png "Zoom App SDK type")
 a. Note the SDK key 
 b. Note the SDK secret 
 
