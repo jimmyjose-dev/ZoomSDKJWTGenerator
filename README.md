@@ -1,5 +1,5 @@
 # ZoomSDKJWTGenerator
-It can generate [Zoom](https://zoom.us) JWT tokens that can be used with any Zoom SDK variants for these platforms:
+It can generate [Zoom](https://zoom.us) JWT that can be used with any Zoom SDK variants for these platforms:
 1. [Zoom Android SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/android "Zoom Android SDK")
 2. [Zoom iOS SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/iOS "Zoom iOS SDK")
 3. [Zoom Mac SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/macos "Zoom Mac SDK")
