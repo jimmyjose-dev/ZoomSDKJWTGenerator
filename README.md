@@ -9,7 +9,6 @@ This Can be used to generate [Zoom](https://zoom.us) JWT tokens for use with any
 7. [Zoom SDK Ionic](https://marketplace.zoom.us/docs/sdk/native-sdks/ionic/overview "Zoom SDK Ionic")
 8. [Zoom SDK Cordova Plugin](https://marketplace.zoom.us/docs/sdk/native-sdks/ionic/overview "Zoom SDK Cordova Plugin")
 
-This python class will generate [Zoom](https://zoom.us) JWT tokens for use with v2 of the [Zoom API](https://zoom.github.io/api/#authentication) and takes care of regenerating expired tokens dynamically.
 
 ## Requirements:
 The pyjwt python library is required. `pip install pyjwt` or `pip3 install pyjwt` depending on your version
