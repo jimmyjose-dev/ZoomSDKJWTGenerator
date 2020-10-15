@@ -34,7 +34,7 @@ The pyjwt python library is required. `pip install pyjwt` or `pip3 install pyjwt
 zoom_sdk = ZoomSDKJWT("SDK KEY","SDK Secret")
 zoom_sdk.generate_token()
 ```
-or if you want to use it import in another module
+or if you want to import in another module
 ```
 from ZoomSDKJWT import ZoomSDKJWT
 zoom_sdk = ZoomSDKJWT("SDK KEY","SDK Secret")
